@@ -22,7 +22,7 @@ public extension AVCompositionTrack
             kind = .video
             
         case .audio:
-            kind = Track.Kind.audion
+            kind = Track.Kind.audio
         default:
             break
         }
